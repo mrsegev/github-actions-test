@@ -2,17 +2,15 @@ name: Generate-Readme
 on: push
 
 jobs:
-  generate-readme:
+  lint:
     name: Generate-Readme-job
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7.2'
-      - name: run script
-        run: |
-          ruby auto-readme/generate.rb
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7.2'
+        bundler-cache: true
+    - name: run script
+      run: |
+        ruby auto-readme/generate.rb
