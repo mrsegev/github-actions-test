@@ -1,5 +1,5 @@
 require "yaml"
-puts Dir.pwd
+p Dir.pwd
 @template = File.read("#{Dir.pwd}/template.md")
 valuesFile = YAML.load(File.read("#{Dir.pwd}/values.yml"))
 @values = {}
