@@ -1,7 +1,7 @@
 require "yaml"
-
-@template = File.read("template.md")
-valuesFile = YAML.load(File.read("values.yml"))
+puts Dir.pwd
+@template = File.read("#{Dir.pwd}/template.md")
+valuesFile = YAML.load(File.read("#{Dir.pwd}/values.yml"))
 @values = {}
 valuesFile.each { | key, value |
     @values[key.to_sym] = value
