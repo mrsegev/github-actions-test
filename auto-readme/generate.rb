@@ -1,8 +1,8 @@
 require "yaml"
 p Dir.pwd
 p Dir["*"]
-@template = File.read("#{Dir.pwd}/template.md")
-valuesFile = YAML.load(File.read("#{Dir.pwd}/values.yml"))
+@template = File.read("#{Dir.pwd}/auto-readme/template.md")
+valuesFile = YAML.load(File.read("#{Dir.pwd}/auto-readme/values.yml"))
 @values = {}
 valuesFile.each { | key, value |
     @values[key.to_sym] = value
