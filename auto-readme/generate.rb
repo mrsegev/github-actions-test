@@ -1,5 +1,6 @@
 require "yaml"
 p Dir.pwd
+p Dir["*"]
 @template = File.read("#{Dir.pwd}/template.md")
 valuesFile = YAML.load(File.read("#{Dir.pwd}/values.yml"))
 @values = {}
