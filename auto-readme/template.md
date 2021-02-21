@@ -1,7 +1,15 @@
-# {{title}}
-{{description}}
-<br /><br />
-**Maintainer:** {{maintainer}}
+<h1 align="center">
+    {{title}}
+</h1>
+<h3 align="center">
+    {{description}}
+</h3>
+<p align="center">
+    Maintainer: {{maintainer}}
+</p>
+
+---
+
 <br /><br />
 ## Activity
 
