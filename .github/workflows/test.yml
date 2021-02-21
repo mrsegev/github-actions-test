@@ -14,3 +14,7 @@ jobs:
     - name: run script
       run: |
         ruby auto-readme/generate.rb
+
+    - uses: EndBug/add-and-commit@v7
+      with:
+        add: auto-readme/README.md
