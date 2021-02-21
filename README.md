@@ -9,7 +9,14 @@ This is a test description for my test repostiroy...
 
 [Latest merged Pull Requests](https://github.com/TailorBrands/myRepo/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged+)
 <br /><br />
-## Some Code block
+## Usage
+
+To work on this service, use conjure sync:
 ```
-conjure raise myRepo
+conjure sync myRepo
+```
+
+Open shell:
+```
+conjure shell myRepo
 ```
