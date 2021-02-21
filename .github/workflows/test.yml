@@ -18,4 +18,4 @@ jobs:
     - uses: EndBug/add-and-commit@v7
       with:
         add: 'auto-readme/README.md'
-        cmd: '../'
+        cwd: '../'
