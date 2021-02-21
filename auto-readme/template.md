@@ -9,7 +9,14 @@
 
 [Latest merged Pull Requests](https://github.com/TailorBrands/{{repository_name}}/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged+)
 <br /><br />
-## Some Code block
+## Usage
+
+To work on this service, use conjure sync:
 ```
-conjure raise {{repository_name}}
+conjure sync {{repository_name}}
+```
+
+Open shell:
+```
+conjure shell {{repository_name}}
 ```
