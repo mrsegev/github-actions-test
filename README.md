@@ -1,7 +1,15 @@
-# My Test Repository
-This is a test description for my test repostiroy...
-<br /><br />
-**Maintainer:** Yossi Segev
+<h1 align="center">
+    My Test Repository
+</h1>
+<h3 align="center">
+    This is a test description for my test repostiroy...
+</h3>
+<p align="center">
+    Maintainer: Yossi Segev
+</p>
+
+---
+
 <br /><br />
 ## Activity
 
