@@ -9,8 +9,8 @@
 </p>
 
 ---
+</br>
 
-<br /><br />
 ### Activity
 
 [Latest releases](https://github.com/TailorBrands/myRepo/actions?query=workflow%3ARelease)
