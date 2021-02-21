@@ -1,6 +1,7 @@
 name: Generate-Readme
-on: push
-  paths:
+on:
+  push:
+    paths:
     - 'auto-readme/*.*'
 jobs:
   lint:
