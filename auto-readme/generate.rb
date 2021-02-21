@@ -25,29 +25,3 @@ end
 
 puts finalText
 File.open("README.md", "w") { |f| f.write(finalText) }
-
-
-
-
-
-
-
-
-# if (File.file?("README.md"))
-#     File.write("README.md", finalText)
-# end
-# toReplace = @template.find_all(/{(.*?)}/)
-# puts toReplace[1].class
-
-# toReplace.each do |string|
-#     string2 = "{#{string[0]}}"
-#     puts string2
-#     content = @template.sub(string2, @config[:string[0]])
-#     puts content
-# end
-# newContent = @template.sub(/{title}/, "hi")
-# puts newContent
-
-# @template.each_line do |line|
-#     puts line
-# end
