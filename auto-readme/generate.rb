@@ -24,7 +24,7 @@ placeholders.each do |placeholder|
 end
 
 puts finalText
-File.open("README.md", "w") { |f| f.write(finalText) }
+File.open("/auto-readme/README.md", "w") { |f| f.write(finalText) }
 
 
 
