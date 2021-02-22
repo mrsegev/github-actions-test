@@ -2,7 +2,7 @@ name: Generate-Readme
 on:
   push:
     paths:
-    - 'auto-readme/*.*'
+    - '*.*'
 jobs:
   lint:
     name: Generate-Readme-job
@@ -16,7 +16,7 @@ jobs:
     - name: run script
       run: |
         ruby auto-readme/generate.rb
-    - uses: actions/checkout@v2
+    - name: push new README
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
