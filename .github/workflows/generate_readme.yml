@@ -2,7 +2,7 @@ name: Generate-Readme
 on:
   push:
     paths:
-    - '*.*'
+    - './*.*'
 jobs:
   lint:
     name: Generate-Readme-job
