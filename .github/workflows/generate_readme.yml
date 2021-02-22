@@ -13,11 +13,12 @@ jobs:
       with:
         ruby-version: '2.7.1'
         bundler-cache: true
-    - name: run script
+    - name: Run generation script
       run: |
         ruby auto-readme/generate.rb
     - name: Push new README.md
       run: |
+        cat README.md
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add README.md
