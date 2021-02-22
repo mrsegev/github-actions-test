@@ -16,9 +16,11 @@ jobs:
     - name: run script
       run: |
         ruby auto-readme/generate.rb
-    - name: push new README.md
+    - name: Push new README.md
       run: |
-        git add 'README.md'
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add README.md
         git commit -m "generated"
         git push
     # - uses: EndBug/add-and-commit@v7
