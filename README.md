@@ -5,7 +5,7 @@
     This is a test description for my test repostiroy...
 </h3>
 <p align="center">
-    Maintainer: Yossi Segev (@mrsegev)
+    Maintainer: Yossi Segev
 </p>
 
 ---
