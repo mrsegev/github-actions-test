@@ -4,12 +4,14 @@
 <h3 align="center">
     {{description}}
 </h3>
+<br />
 <p align="center">
-    Maintainer: {{maintainer}}
+    Maintainer: {{maintainer}} <br />
+    Tech lead: {{tech_lead}}
 </p>
 
 ---
-</br>
+<br />
 
 ### Activity
 

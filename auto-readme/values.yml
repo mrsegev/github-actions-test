@@ -1,4 +1,5 @@
 repository_name: myRepo
-maintainer: Yossi Segev
+tech_lead: --
+maintainer: Yossi Segev (@mrsegev)
 title: My Test Repository
 description: This is a test description for my test repostiroy...
