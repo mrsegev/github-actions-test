@@ -4,12 +4,14 @@
 <h3 align="center">
     This is a test description for my test repostiroy...
 </h3>
+<br />
 <p align="center">
-    Maintainer: Yossi Segev
+    Maintainer: Yossi Segev (@mrsegev) <br />
+    Tech lead: --
 </p>
 
 ---
-</br>
+<br />
 
 ### Activity
 
