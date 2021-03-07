@@ -6,7 +6,7 @@
 </h3>
 <br />
 <p align="center">
-    Maintainer: Yossi Segev (@mrsegev) <br />
+    Maintainer: Yossi Segev1 (@mrsegev) <br />
     Tech lead: --
 </p>
 

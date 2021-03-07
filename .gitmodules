@@ -1,0 +1,3 @@
+[submodule "auto-readme-script"]
+	path = auto-readme-script
+	url = https://github.com/mrsegev/auto-readme-script.git
