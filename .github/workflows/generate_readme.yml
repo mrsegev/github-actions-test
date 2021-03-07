@@ -17,7 +17,7 @@ jobs:
       run: sh auto-readme/pull_script.sh
     - name: Run generation script
       run: |
-        ruby auto-readme/generate.rb
+        ruby auto-readme-script/generate.rb
     - name: Push new README.md
       run: |
         git config user.name github-actions
