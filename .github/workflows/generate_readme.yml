@@ -13,6 +13,8 @@ jobs:
       with:
         ruby-version: '2.7.1'
         bundler-cache: true
+    - name: Pull script
+      run: sh auto-readme/pull_script.sh
     - name: Run generation script
       run: |
         ruby auto-readme/generate.rb
